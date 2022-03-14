@@ -99,5 +99,5 @@ call_queue.append(caller_3)
 
 ```
 
-[Link to the solution](1-queue.md)
+[Link to the solution](queue_code_solution.py)
 ###Definitions
