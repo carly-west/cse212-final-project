@@ -98,4 +98,6 @@ call_queue.append(caller_2)
 call_queue.append(caller_3)
 
 ```
+
+[Link to the solution](1-queue.md)
 ###Definitions
