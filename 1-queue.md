@@ -80,7 +80,22 @@ while keys_pressed:
     print(keys_pressed.pop(0))
 ```
 
-##Problem for you to solve
+##Problem for you to solve!
 
 
+You have been hired to create a system for a customer service company to allow calls that are on hold to be answered in the order that they were received. Use this starting code with three calls, and print and remove them in the order that they came in.
+
+
+```
+call_queue = []
+
+caller_1 = "Nancy"
+caller_2 = "Mary"
+caller_3 = "Jackson"
+
+call_queue.append(caller_1)
+call_queue.append(caller_2)
+call_queue.append(caller_3)
+
+```
 ###Definitions
