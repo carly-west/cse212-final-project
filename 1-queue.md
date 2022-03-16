@@ -44,6 +44,10 @@ This operation will return the size of the queue. It has an **O(1)** performance
 queue_length = len(my_queue)
 ```
 
+###Common Errors with Queues
+One of the most common ways that queues can be misused is by using them as if they were an array. Any time you add an item in the middle of a queue, or remove it from the middle, it breaks the FIFO law, and it then can be considered a list.
+
+
 ##Code Example
 When you use a keyboard to type, there is the expectation for the letters to appear on the screen in the order that you typed them. But what if there is a delay or buffer of when the key is pressed, to when it appears on the screen? Having jumbled up letters appear on the screen would be no fun! Here is an example of using a queue to receive input, and then print the input in the order that it was added.
 
@@ -100,4 +104,3 @@ call_queue.append(caller_3)
 ```
 
 [Link to the solution](queue_code_solution.py)
-###Definitions
