@@ -41,10 +41,19 @@ This is how an item is added to a set. If the item is already in the set, it wil
 
 ```
 my_set.add(5)
+
+# The set now looks like this: {1, 2, 3, 4, 5}
 ```
 
 
 ### Removing Items from a Set
+Removing values from a set can be done like this. It is an O(1) performance.
+
+```
+my_set.remove(3)
+
+# Remaining set: {1, 2, 4, 5}
+```
 
 
 ### Set Intersections
