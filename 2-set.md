@@ -160,3 +160,12 @@ print(playlist_intersection)
 
 It looks like there were two songs that repeated, "Let it Go", and "Hakuna Matata". Our use can now go through their playlists and clean them all up.
 
+
+## Problem for you to solve!
+
+You are tasked with creating a system for users to sign up for a website. Create a program following these steps:
+1. Use the following list that already have accounts:
+  a. user232@abc.com, email1211@email.com, user909@yahoo.com. email@gmail.com, email1231@yahoo.com, user10101@outlook.com, user123@yahoo.com
+2. Create 3 new users using their emails. Before adding them, check for an email that may already exist.
+  a. Use these emails: email@gmail.com, user123@yahoo.com, testing222@outlook.com
+3. Print the new list with added values
