@@ -165,7 +165,11 @@ It looks like there were two songs that repeated, "Let it Go", and "Hakuna Matat
 
 You are tasked with creating a system for users to sign up for a website. Create a program following these steps:
 1. Use the following list that already have accounts:
-  a. user232@abc.com, email1211@email.com, user909@yahoo.com. email@gmail.com, email1231@yahoo.com, user10101@outlook.com, user123@yahoo.com
-2. Create 3 new users using their emails. Before adding them, check for an email that may already exist.
-  a. Use these emails: email@gmail.com, user123@yahoo.com, testing222@outlook.com
-3. Print the new list with added values
+  a. user232@abc.com, email1211@email.com, user909@yahoo.com, email@gmail.com, email1231@yahoo.com, user10101@outlook.com, user123@yahoo.com
+2. Create a new set with the following emails:
+  a. email@gmail.com, user123@yahoo.com, testing222@outlook.com, tests1233@yahoo.com, snailmail@gmail.com, user10101@outlook.com
+3. Check to see if there are any repeat emeails using an intersection
+4. Create a new set using intersection with all of the unique emails.
+5. Find the number of accounts added to the new set looping through the old email list, and counting the emails that were added.
+
+[Link to the solution](set_code_solution.py)
