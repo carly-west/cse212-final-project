@@ -57,10 +57,37 @@ my_set.remove(3)
 
 
 ### Set Intersections
+Set intersections can be used to return a new set with the common elements of both sets. It can be used with as many sets as needed. This would have the performance of O(n). Here is an example of finding the intersection of two sets:
 
+```
+first_set = {"apple", "banana", "cherry", "watermellon"}
+second_set = {"cherry", "watermellon", "lemon", "cherry"}
+
+# Here is the sytax for intersecting sets
+set_intersection = first_set & second_set
+
+print(set_intersection)
+
+# Output: {'cherry', 'watermellon'}
+```
+
+Cherry and watermellon were the only two values that were included in both sets.
 
 ### Set Unions
+Unions with sets do the opposite of intersections, they return a new set with all of the distinct and unique values of the sets. This would be O(n) performance. Here is how this can be done:
 
+```
+first_set = {"apple", "banana", "cherry", "watermellon"}
+second_set = {"cherry", "watermellon", "lemon", "cherry"}
+
+# This is the syntax for finding the union of sets
+set_union = first_set | second_set
+
+print(set_union)
+
+# Output: {'banana', 'watermellon', 'apple', 'cherry', 'lemon'}
+```
+The output are the values that were not in both sets.
 
 ### Finding the Size of Set
 
