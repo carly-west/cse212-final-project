@@ -16,3 +16,4 @@ for user in accounts:
     count += 1
 
 print(count)
+# Expected output: 3
