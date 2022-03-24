@@ -90,9 +90,73 @@ print(set_union)
 The output are the values that were not in both sets.
 
 ### Finding the Size of Set
+To find the number of items in the set, you can use the len() funciton. This has an O(1) performance. It would be done like this:
 
+```
+my_set = {"apple", "banana", "cherry"}
+
+set_length = len(my_set)
+
+print(set_length)
+
+# Output: 3
+```
 
 ### Finding if Item is in a Set
+In order to check for an item in a set, you can us an "if" block. This ins O(1) performance. It will look like this:
+
+```
+my_set = {"apple", "banana", "cherry"}
+
+if "orange" in my_set:
+  print("Orange is in the set!")
+
+if "apple" in my_set:
+  print("Apple is in the set!"
+
+#  Output: "Apple is in the set!"
+```
 
 
+## Code Example
+Let's say that there is a user that wants to add a song to a playlist. They wouldn't want the same song in the playlist more than once! This can be done with sets!
+
+
+Here is how they add a song to a playlist:
+```
+playlist = {"Don't Stop Believing", "Eye of the Tiger", "Livin' on a Prayer", "Imagine", "Hey Jude", "Billie Jean"}
+
+# This is the unique song they would like to add
+new_song = "Hotel California"
+
+# Here is a repeat song
+repeat_song = "Imagine"
+
+# Add the songs to the playlist
+playlist.add(new_song)
+playlist.add(repeat_song)
+
+print(playlist)
+
+# Output: {'Eye of the Tiger', "Livin' on a Prayer", 'Billie Jean', 'Imagine', "Don't Stop Believing", 'Hotel California', 'Hey Jude'}
+```
+
+Notice how the order of the playlist is all mixed up! Luckily, our user doesn't care about the order of the songs. Also notice how the repeat song "Imagine" was already in the playlist, so it wasn't added again.
+
+
+Now let's say they have two different playlists, and they would like to find all of the songs that are in both playlists. They can do this by using an intersection:
+
+```
+playlist_1 = {"Let it Go", "A Whole New World", "You're Welcome", "Colors of the Wind", "Be our Guest", "Hakuna Matata"}
+
+playlist_2 = {"Circle of Life", "We Don't Talk About Bruno", "Into the Unknown", "Hakuna Matata", "Let it Go"}
+
+playlist_intersection = playlist_1 & playlist_2
+
+print(playlist_intersection)
+
+# Output: {'Let it Go', 'Hakuna Matata'}
+```
+
+It looks like there were two songs that repeated, "Let it Go", and "Hakuna Matata". Our use can now go through their playlists and clean them all up.
 
