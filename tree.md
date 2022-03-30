@@ -24,10 +24,10 @@ When a tree is balanced, it carries the most advantages of effeciency and speed 
 ### Child
 ### Leaf
 
-### Searching Through A Binary Search Tree
 
 
 ## Tree Operations
 ### Adding to a Tree
 ### Removing from a Tree
 ### Finding the Size of a Tree
+### Searching Through A Binary Search Tree
