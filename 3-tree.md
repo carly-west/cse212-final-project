@@ -1,0 +1,47 @@
+# The Tree Data Structure
+## Introduction
+Trees are a data structure type that are similar to linked lists, but each node points to two children, instead of one. This creates a tree-like structure, with each branch growing as more data is added.
+
+The main advantage of trees is the ability to easily add new nodes, and search through nodes effectivley.
+
+### What does a tree look like?
+Here is what a tree looks like. This image will be referenced in the coming sections.
+
+![Tree](tree.png)
+Figure 1
+
+### How are Binary Trees Organized?
+The best way to describe how binary trees are organized is to walk through the process of adding a node to the tree. Let's say we start with the figure above, and we would like to add the number 5 to the tree. 
+1. We would start at the root of the tree, and decide, is 5 larger or smaller than 8. If it is larger, we will move to the right, and if it is smaller, we will move to the left. In our case, 5 is smaller than 13, so we will traverse to the left. 
+2. We are now to the number 3. We would go to the right since 5 is larger than 3, and now we are on 6. 
+3. We know that 6 is larger than 5, so we would go to the left. 
+4. We are now at the end of the tree, with node 4. This is where we will assign our new node, number 5. We know that 5 is larger than 4, so we will add the new node to the right of 4. 
+
+There you have it! This is how nodes are added to trees.
+
+### Binary Tree vs Non-binary Tree
+A tree is considered binary when each node points to two nodes. A Non-Binary tree is when each node points to more than one node, creating a much wider and vast tree.
+
+### Balanced vs. Unbalanced Trees
+When there are more nodes on one half of the tree than the other, this is what is considered an unbalanced tree. It is best practice to ensure that the trees are as balanced as possible in order to effeciently use a tree.
+
+When a tree is balanced, it carries the most advantages of effeciency and speed when searching through it.
+
+## Sections of a Tree
+### Node
+A tree is made up of many nodes. A node is a piece of data that points to other pieces of data. In the case of a binary tree, each node will potentially point to two other nodes. Each sqaure in figure 1 is considered a node.
+### Root
+The root is the first item in the tree. In figure 1, node 8 is the root. When searching through a tree, the root will be where the search starts at.
+### Parent
+The parent is any node that is pointing to other nodes. For example, node 6 is a parent to node 4 and 7 in figure 1.
+### Child
+A child node is any node that has other nodes pointing to it. Using figure 1, we can see that node 6 is a child to node 3.
+### Leaf
+A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 are all leaves.
+
+
+## Tree Operations
+### Adding to a Tree
+### Removing from a Tree
+### Finding the Size of a Tree
+### Searching Through A Binary Search Tree
