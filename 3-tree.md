@@ -28,7 +28,7 @@ When there are more nodes on one half of the tree than the other, this is what i
 When a tree is balanced, it carries the most advantages of effeciency and speed when searching through it.
 
 ## Sections of a Tree
-### Node
+#### Node
 A tree is made up of many nodes. A node is a piece of data that points to other pieces of data. In the case of a binary tree, each node will potentially point to two other nodes. Each sqaure in figure 1 is considered a node.
 ### Root
 The root is the first item in the tree. In figure 1, node 8 is the root. When searching through a tree, the root will be where the search starts at.
