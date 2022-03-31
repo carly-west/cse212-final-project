@@ -45,3 +45,7 @@ A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 ar
 ### Removing from a Tree
 ### Finding the Size of a Tree
 ### Searching Through A Binary Search Tree
+
+
+## Example Using a Tree
+Here is an example of creating a binary search tree.
