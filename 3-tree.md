@@ -33,13 +33,13 @@ Trees are what is considered a "recursive data structure". This means that when 
 ## Sections of a Tree
 #### Node
 A tree is made up of many nodes. A node is a piece of data that points to other pieces of data. In the case of a binary tree, each node will potentially point to two other nodes. Each sqaure in figure 1 is considered a node.
-### Root
+#### Root
 The root is the first item in the tree. In figure 1, node 8 is the root. When searching through a tree, the root will be where the search starts at.
-### Parent
+#### Parent
 The parent is any node that is pointing to other nodes. For example, node 6 is a parent to node 4 and 7 in figure 1.
-### Child
+#### Child
 A child node is any node that has other nodes pointing to it. Using figure 1, we can see that node 6 is a child to node 3.
-### Leaf
+#### Leaf
 A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 are all leaves.
 
 
