@@ -87,7 +87,7 @@ while keys_pressed:
 ## Problem for you to solve!
 
 
-You have been hired to create a system for a customer service company to allow calls that are on hold to be answered in the order that they were received. Use this starting code with three calls, and print and remove them in the order that they came in.
+You have been hired to create a system for a customer service company to allow calls that are on hold to be answered in the order that they were received. Use this starting code with three calls. Print and remove them in the order that they came in using a loop.
 
 
 ```
