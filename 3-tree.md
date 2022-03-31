@@ -41,11 +41,11 @@ A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 ar
 
 
 
-### Code Example - Creating a Binary Search Tree
+## Code Example - Creating a Binary Search Tree
 Below is a code example of creating a Binary Search Tree, and how to add nodes to the tree.
 
 ```
-class BSTNode:
+class Node:
     def __init__(self, value=None):
         self.left = None
         self.right = None
@@ -64,16 +64,18 @@ class BSTNode:
             if self.left:
                 self.left.insert(value)
                 return
-            self.left = BSTNode(value)
+            self.left = Node(value)
             return
 
         if self.right:
             self.right.insert(value)
             return
-        self.right = BSTNode(value)
+        self.right = Node(value)
 ```
 
 
 ## Problem for You to Solve!
 
-Using the code from above, create a function that removes a node from the Binary Search Tree
+Using the code from above, create a function that removes a node from the Binary Search Tree.
+
+
