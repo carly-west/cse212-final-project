@@ -17,7 +17,7 @@ The best way to describe how binary trees are organized is to walk through the p
 3. We know that 6 is larger than 5, so we would go to the left. 
 4. We are now at the end of the tree, with node 4. This is where we will assign our new node, number 5. We know that 5 is larger than 4, so we will add the new node to the right of 4. 
 
-There you have it! This is how nodes are added to trees.
+There you have it! This is how nodes are added to trees. The process of searching through a tree is the same, but instead of adding a new value, you would be looking for a value.
 
 ### Binary Tree vs Non-binary Tree
 A tree is considered binary when each node points to two nodes. A Non-Binary tree is when each node points to more than one node, creating a much wider and vast tree.
