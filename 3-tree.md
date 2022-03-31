@@ -41,10 +41,42 @@ A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 ar
 
 
 ## Tree Operations
-### Adding to a Tree
+
+### Creating a Binary Search Tree
+
+```
+class BSTNode:
+    def __init__(self, value=None):
+        self.left = None
+        self.right = None
+        self.value = value
+
+    def insert(self, value):
+        
+        if not self.value:
+            self.value = value
+            return
+
+        if self.value == value:
+            return
+
+        if value < self.value:
+            if self.left:
+                self.left.insert(value)
+                return
+            self.left = BSTNode(value)
+            return
+
+        if self.right:
+            self.right.insert(value)
+            return
+        self.right = BSTNode(value)
+```
+
+<!-- ### Adding to a Tree
 ### Removing from a Tree
 ### Finding the Size of a Tree
-### Searching Through A Binary Search Tree
+### Searching Through A Binary Search Tree -->
 
 
 ## Example Using a Tree
