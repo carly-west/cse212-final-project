@@ -40,9 +40,9 @@ A child node is any node that has other nodes pointing to it. Using figure 1, we
 A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 are all leaves.
 
 
-## Tree Operations
 
-### Creating a Binary Search Tree
+### Code Example - Creating a Binary Search Tree
+Below is a code example of creating a Binary Search Tree, and how to add nodes to the tree.
 
 ```
 class BSTNode:
@@ -50,7 +50,7 @@ class BSTNode:
         self.left = None
         self.right = None
         self.value = value
-
+        
     def insert(self, value):
         
         if not self.value:
@@ -73,11 +73,7 @@ class BSTNode:
         self.right = BSTNode(value)
 ```
 
-<!-- ### Adding to a Tree
-### Removing from a Tree
-### Finding the Size of a Tree
-### Searching Through A Binary Search Tree -->
 
+## Problem for You to Solve!
 
-## Example Using a Tree
-Here is an example of creating a binary search tree.
+Using the code from above, create a function that removes a node from the Binary Search Tree
