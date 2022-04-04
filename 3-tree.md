@@ -1,3 +1,4 @@
+[Back to Welcome Page](0-welcome.md)
 # The Tree Data Structure
 ## Introduction
 Trees are a data structure type that is similar to linked lists, but each node points to two children, instead of one. This creates a tree-like structure, with each branch growing as more data is added.
@@ -83,5 +84,3 @@ Using the code from above, create a function that removes a node from the Binary
 
 [Link to the solution](tree_code_solution.py)
 
-
-[Back to Welcome Page](0-welcome.md)
