@@ -1,8 +1,8 @@
 # The Tree Data Structure
 ## Introduction
-Trees are a data structure type that are similar to linked lists, but each node points to two children, instead of one. This creates a tree-like structure, with each branch growing as more data is added.
+Trees are a data structure type that is similar to linked lists, but each node points to two children, instead of one. This creates a tree-like structure, with each branch growing as more data is added.
 
-The main advantage of trees is the ability to easily add new nodes, and search through nodes effectivley.
+The main advantage of trees is the ability to easily add new nodes, and search through nodes effectively.
 
 ### What does a tree look like?
 Here is what a tree looks like. This image will be referenced in the coming sections.
@@ -23,24 +23,24 @@ There you have it! This is how nodes are added to trees. The process of searchin
 A tree is considered binary when each node points to two nodes. A Non-Binary tree is when each node points to more than one node, creating a much wider and vast tree.
 
 ### Balanced vs. Unbalanced Trees
-When there are more nodes on one half of the tree than the other, this is what is considered an unbalanced tree. It is best practice to ensure that the trees are as balanced as possible in order to effeciently use a tree.
+When there are more nodes on one half of the tree than the other, this is what is considered an unbalanced tree. It is best practice to ensure that the trees are as balanced as possible in order to efficiently use a tree.
 
-When a tree is balanced, it carries the most advantages of effeciency and speed when searching through it.
+When a tree is balanced, it carries the most advantages of efficiency and speed when searching through it.
 
 ### How does Recursion come into play?
 Trees are what is considered a "recursive data structure". This means that when working with trees in Python, recursion will often be used to traverse the data. For example, in the steps of adding a new node to the tree, recursion is used to call a comparison on the next node. So, if we saw that the node we are comparing against is greater than the value we would like to add, we would use recursion to check again, but to see if it is smaller.
 
 ## Sections of a Tree
 #### Node
-A tree is made up of many nodes. A node is a piece of data that points to other pieces of data. In the case of a binary tree, each node will potentially point to two other nodes. Each sqaure in figure 1 is considered a node.
+A tree is made up of many nodes. A node is a piece of data that points to other pieces of data. In the case of a binary tree, each node will potentially point to two other nodes. Each square in figure 1 is considered a node.
 #### Root
 The root is the first item in the tree. In figure 1, node 8 is the root. When searching through a tree, the root will be where the search starts at.
 #### Parent
-The parent is any node that is pointing to other nodes. For example, node 6 is a parent to node 4 and 7 in figure 1.
+The parent is any node that is pointing to other nodes. For example, node 6 is a parent to nodes 4 and 7 in figure 1.
 #### Child
-A child node is any node that has other nodes pointing to it. Using figure 1, we can see that node 6 is a child to node 3.
+A child node is any node that has other nodes pointing to it. Using figure 1, we can see that node 6 is a child of node 3.
 #### Leaf
-A leaf node are nodes that don't point to anything else. Nodes 1, 4 7, and 13 are all leaves.
+A leaf node is a node that doesn't point to anything else. Nodes 1, 4 7, and 13 are all leaves.
 
 
 
