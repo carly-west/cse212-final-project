@@ -82,3 +82,6 @@ class Node:
 Using the code from above, create a function that removes a node from the Binary Search Tree.
 
 [Link to the solution](tree_code_solution.py)
+
+
+[Back to Welcome Page](0-welcome.md)
