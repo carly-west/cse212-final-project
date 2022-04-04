@@ -38,10 +38,19 @@ class Node:
 
         else:
                if root.left is None:
+                    temp_value = root.left
                     root = None
+                    return temp_value
+                
                 elif root.right is None:
+                    temp_value = root.right
                     root = None
+                    return temp_value
                     
-                root.right = deleteNode(root.right, self.key)
+                temp_value = root.right
+                
+                root.value = temp_value.value
+                    
+                root.right = deleteNode(root.right, self.value)
                 
         return Root
