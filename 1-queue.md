@@ -2,12 +2,12 @@
 # The Queue Data Structure
 
 ## Introduction
-What are Queues? They are a type of data structure that uses the idea of "First in, first out" when adding and removing data from the queue. A quick example of the "FIFO" method is when a group of people get into a line for something.
+What are Queues? They are a type of data structure that uses the idea of "First in, first-out" when adding and removing data from the queue. A quick example of the "FIFO" method is when a group of people get into a line for something.
 
 
 ### What is First in, first out?
 
-Let's say there is one person in line for cotton candy at a State Fair. Then another person gets in line behind them. The vendor then yells out, "NEXT PERSON PLEASE!" Who would be the next person to buy their cotton candy? Definitely the first person in line! This is how the "First in, first out" method works with queues, the next person in line is the one to be removed, or the one at the "front of the line". The data will always be flowing one way, almost like a stream. 
+Let's say there is one person in line for cotton candy at a State Fair. Then another person gets in line behind them. The vendor then yells out, "NEXT PERSON PLEASE!" Who would be the next person to buy their cotton candy? Definitely the first person in line! This is how the "First in, first-out" method works with queues, the next person in line is the one to be removed or the one at the "front of the line". The data will always be flowing one way, almost like a stream. 
 
 ### When to use a Queue?
 
@@ -23,7 +23,7 @@ my_queue = []
 
 
 ### Appending values
-This operation is also known by the name of "enqueue", and it adds the value to the end of the queue.
+This operation is also known by the name "enqueue", and it adds the value to the end of the queue.
 
 This will have an **O(1)** performance.
 ```
