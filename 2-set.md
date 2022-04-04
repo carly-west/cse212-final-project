@@ -2,7 +2,7 @@
 # The Set Data Structure
 
 ## Introduction
-One of the main characteristics of sets is that they do not allow duplicate values. It also doesn't care about the order of the items in the set, so it might print it out differently each time. You might ask, when should I use a set? The main purpose of choosing a set over any other data structure is ensuring that repeat values are not added to a set. Searching quickly and efficiently through a set to see if a value has already been added is also an an advantage of sets.
+One of the main characteristics of sets is that they do not allow duplicate values. It also doesn't care about the order of the items in the set, so it might print it out differently each time. You might ask, when should I use a set? The main purpose of choosing a set over any other data structure is to ensure that repeat values are not added to a set. Searching quickly and efficiently through a set to see if a value has already been added is also an advantage of sets.
 
 ### Printing Sets
 One important thing to note about sets is that the order of items that are added isn't taken into consideration when printing a set out. Here is an example of what the output might be of printing this set. Notice how the order of printing is different than the order they were added.
@@ -17,7 +17,7 @@ print(my_set)
 ```
 
 ### Dealing with Duplicates
-If a duplicate is added to a set, Python just ignores it and doesn't add it. There also isn't an error thrown when it is added. Here is what that might look like. Notice how the duplicate item, "apple", was not added into the set:
+If a duplicate is added to a set, Python just ignores it and doesn't add it. There also isn't an error thrown when it is added. Here is what that might look like. Notice how the duplicate item, "apple", was not added to the set:
 
 ```
 my_set = {"apple", "banana", "cherry"}
@@ -72,7 +72,7 @@ print(set_intersection)
 # Output: {'cherry', 'watermellon'}
 ```
 
-Cherry and watermellon were the only two values that were included in both sets.
+Cherry and watermelon were the only two values that were included in both sets.
 
 ### Set Unions
 Unions with sets do the opposite of intersections, they return a new set with all of the distinct and unique values of the sets. This would be O(n) performance. Here is how this can be done:
@@ -88,10 +88,10 @@ print(set_union)
 
 # Output: {'banana', 'watermellon', 'apple', 'cherry', 'lemon'}
 ```
-The output are the values that were not in both sets.
+The output is the values that were not in both sets.
 
 ### Finding the Size of Set
-To find the number of items in the set, you can use the len() funciton. This has an O(1) performance. It would be done like this:
+To find the number of items in the set, you can use the len() function. This has an O(1) performance. It would be done like this:
 
 ```
 my_set = {"apple", "banana", "cherry"}
@@ -104,7 +104,7 @@ print(set_length)
 ```
 
 ### Finding if Item is in a Set
-In order to check for an item in a set, you can us an "if" block. This ins O(1) performance. It will look like this:
+In order to check for an item in a set, you can use an "if" block. This is O(1) performance. It will look like this:
 
 ```
 my_set = {"apple", "banana", "cherry"}
@@ -159,17 +159,17 @@ print(playlist_intersection)
 # Output: {'Let it Go', 'Hakuna Matata'}
 ```
 
-It looks like there were two songs that repeated, "Let it Go", and "Hakuna Matata". Our use can now go through their playlists and clean them all up.
+It looks like there were two songs that repeated, "Let it Go", and "Hakuna Matata". Our users can now go through their playlists and clean them all up.
 
 
 ## Problem for you to solve!
 
 You are tasked with creating a system for users to sign up for a website. Create a program following these steps:
-1. Use the following list that already have accounts:
+1. Use the following list of emails that already have accounts:
   a. user232@abc.com, email1211@email.com, user909@yahoo.com, email@gmail.com, email1231@yahoo.com, user10101@outlook.com, user123@yahoo.com
 2. Create a new set with the following emails:
   a. email@gmail.com, user123@yahoo.com, testing222@outlook.com, tests1233@yahoo.com, snailmail@gmail.com, user10101@outlook.com
-3. Check to see if there are any repeat emeails using an intersection
+3. Check to see if there are any repeat emails using an intersection
 4. Create a new set using intersection with all of the unique emails.
 5. Find the number of accounts added to the new set looping through the old email list, and counting the emails that were added.
 
