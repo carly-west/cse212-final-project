@@ -1,3 +1,4 @@
+[Back to Welcome Page](0-welcome.md)
 # The Set Data Structure
 
 ## Introduction
@@ -174,6 +175,3 @@ You are tasked with creating a system for users to sign up for a website. Create
 
 [Link to the solution](set_code_solution.py)
 
-
-
-[Back to Welcome Page](0-welcome.md)
