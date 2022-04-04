@@ -36,4 +36,12 @@ class Node:
         elif root.value < value:
             root.right = deleteNode(self, value, root.right)
 
-        # still working on this.....
+        else:
+               if root.left is None:
+                    root = None
+                elif root.right is None:
+                    root = None
+                    
+                root.right = deleteNode(root.right, self.key)
+                
+        return Root
