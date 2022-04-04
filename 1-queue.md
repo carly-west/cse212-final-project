@@ -1,3 +1,4 @@
+[Back to Welcome Page](0-welcome.md)
 # The Queue Data Structure
 
 ## Introduction
@@ -105,5 +106,3 @@ call_queue.append(caller_3)
 
 [Link to the solution](queue_code_solution.py)
 
-
-[Back to Welcome Page](0-welcome.md)
